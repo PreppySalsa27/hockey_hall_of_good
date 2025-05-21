@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Inductees</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-wrapper">
+      <img src="assets/logo.png" class="logo" alt="Logo" />
+      <h1>Hockey Hall of Good</h1>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="inductees.html">All Inductees</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://instagram.com/YOURHANDLE" target="_blank">Instagram</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>All Inductees</h2>
+    <table id="playersTable">
+      <thead>
+        <tr>
+          <th class="sortable" onclick="sortTable(0)">Name</th>
+          <th class="sortable" onclick="sortTable(1)">GP</th>
+          <th class="sortable" onclick="sortTable(2)">G</th>
+          <th class="sortable" onclick="sortTable(3)">A</th>
+          <th class="sortable" onclick="sortTable(4)">PTS</th>
+        </tr>
+      </thead>
+      <tbody id="playersBody"></tbody>
+    </table>
+  </main>
+
+  <footer>&copy; 2025 Hockey Hall of Good</footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
